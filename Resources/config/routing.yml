@@ -1,0 +1,3 @@
+app_newsletter_subscriber_subscribe:
+    path:     /subscriber/subscribe
+    defaults: { _controller: 'PuzzleAppNewsletterBundle:Subscriber:subscribe' }
