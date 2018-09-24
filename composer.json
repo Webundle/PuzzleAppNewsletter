@@ -28,11 +28,10 @@
 		"webundle/puzzle-admin-newsletter" : "^1.0"
 	},
 	"autoload" : {
-		"psr-0" : {
-			"Webundle\\Puzzle\\App\\NewsletterBundle" : ""
+		"psr-4" : {
+			"Puzzle\\App\\NewsletterBundle\\" : ""
 		}
 	},
-	"target-dir" : "Webundle/Puzzle/App/NewsletterBundle",
 	"extra" : {
 		"branch-alias" : {
 			"dev-master" : "1.0-dev"
